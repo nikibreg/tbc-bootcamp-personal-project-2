@@ -6,8 +6,8 @@
   "author": "Andrii Mulyk <amulyk@lectrum.io>",
   "license": "MIT",
   "scripts": {
-    "start": "light-server -s ./dist/",
-    "dev": "gulp"
+    "server": "light-server -s ./dist/",
+    "development": "gulp"
   },
   "devDependencies": {
     "del": "^4.1.1",

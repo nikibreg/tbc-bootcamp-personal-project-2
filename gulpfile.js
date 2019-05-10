@@ -38,4 +38,6 @@ gulp.task('watch', function() {
     });
 });
 
-gulp.task('default', gulp.series(['watch']));
+const init = ['clean:css', 'sass', 'clean:html', 'html']
+
+gulp.task('default', gulp.series([...init,'watch']));
