@@ -1,0 +1,19 @@
+{
+  "name": "bootcamp-scss",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:amulyk/bootcamp-scss.git",
+  "author": "Andrii Mulyk <amulyk@lectrum.io>",
+  "license": "MIT",
+  "scripts": {
+    "start": "light-server -s ./dist/",
+    "dev": "gulp"
+  },
+  "devDependencies": {
+    "del": "^4.1.1",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.2.0",
+    "gulp-sass": "^4.0.2",
+    "light-server": "^2.6.2"
+  }
+}
