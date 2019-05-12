@@ -7,7 +7,9 @@
   "license": "MIT",
   "scripts": {
     "server": "light-server -s ./dist/",
-    "lint": "stylelint \"./source/styles/*.scss\" --syntax scss",
+    "lint:css": "stylelint \"./source/styles/*.scss\" --syntax scss",
+    "lint:html": "htmlhint \"./source/*.html\"",
+    "lint": "yarn lint:css & yarn lint:html",
     "development": "gulp"
   },
   "devDependencies": {
@@ -15,6 +17,7 @@
     "gulp": "^4.0.2",
     "gulp-cli": "^2.2.0",
     "gulp-sass": "^4.0.2",
+    "htmlhint": "^0.11.0",
     "light-server": "^2.6.2",
     "stylelint": "^10.0.1",
     "stylelint-config-property-sort-order-smacss": "^4.0.2",
