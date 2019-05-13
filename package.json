@@ -8,7 +8,7 @@
   "scripts": {
     "server": "light-server -s ./dist/",
     "lint:css": "stylelint \"./source/styles/*.scss\" --syntax scss",
-    "lint:html": "htmlhint \"./source/*.html\"",
+    "lint:html": "htmllint \"./source/*.html\"",
     "lint": "yarn lint:css & yarn lint:html",
     "development": "gulp"
   },
@@ -17,7 +17,7 @@
     "gulp": "^4.0.2",
     "gulp-cli": "^2.2.0",
     "gulp-sass": "^4.0.2",
-    "htmlhint": "^0.11.0",
+    "htmllint-cli": "^0.0.7",
     "light-server": "^2.6.2",
     "stylelint": "^10.0.1",
     "stylelint-config-property-sort-order-smacss": "^4.0.2",
