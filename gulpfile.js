@@ -33,7 +33,7 @@ gulp.task('watch', function() {
     gulp.watch('source/*.html', (done) => {
         gulp.series(['clean:html', 'html'])(done);
     });
-    gulp.watch('source/styles/*.scss', (done) => {
+    gulp.watch('source/styles/**/*.scss', (done) => {
         gulp.series(['clean:css', 'sass'])(done);
     });
 });
