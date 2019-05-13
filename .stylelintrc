@@ -1,4 +1,7 @@
 {
+    "plugins": [
+        "stylelint-scss"
+    ],
     "extends": [
         "stylelint-config-standard",
         "stylelint-config-property-sort-order-smacss"
@@ -30,6 +33,8 @@
         "media-feature-range-operator-space-after": "always",
         "media-feature-parentheses-space-inside": "never",
         "media-feature-colon-space-before": "never",
-        "media-feature-colon-space-after": "always"
+        "media-feature-colon-space-after": "always",
+        "at-rule-no-unknown": null,
+        "scss/at-rule-no-unknown": true
     }
 }
