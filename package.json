@@ -1,0 +1,27 @@
+{
+  "name": "bootcamp-scss",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:amulyk/bootcamp-scss.git",
+  "author": "Andrii Mulyk <amulyk@lectrum.io>",
+  "license": "MIT",
+  "scripts": {
+    "server": "light-server -s ./dist/",
+    "lint:css": "stylelint \"./source/styles/**/*.scss\" --syntax scss",
+    "lint:html": "htmllint \"./source/*.html\"",
+    "lint": "yarn lint:css & yarn lint:html",
+    "development": "gulp"
+  },
+  "devDependencies": {
+    "del": "^4.1.1",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.2.0",
+    "gulp-sass": "^4.0.2",
+    "htmllint-cli": "^0.0.7",
+    "light-server": "^2.6.2",
+    "stylelint": "^10.0.1",
+    "stylelint-config-property-sort-order-smacss": "^4.0.2",
+    "stylelint-config-standard": "^18.3.0",
+    "stylelint-scss": "^3.6.1"
+  }
+}
