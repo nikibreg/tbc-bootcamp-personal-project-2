@@ -1,0 +1,114 @@
+.jumbotron {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 760px;
+    background: #666666;
+
+    .leftButton,
+    .rightButton {
+        position: absolute;
+        top: 50%;
+        width: 27px;
+        height: 37px;
+        margin: 0 40px;
+        transform: translateY(-50%);
+
+        &::after {
+            color:white;
+            font-family: 'FontAwesome';
+            font-size: 37px;
+            line-height: 37px;
+        }
+    }
+
+    .rightButton {
+        right: 0;
+    }
+
+    .leftButton::after {
+        content: '\f053';
+    }
+
+    .rightButton::after {
+        content: '\f054';
+    }
+
+    .contentWrap {
+        position: relative;
+        left: 15px;
+
+        .jumbotronWrap {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 714px;
+            height: 192px;
+            margin: auto;
+            left: -2px;
+            top: -28px;
+            position: relative;
+    
+            .textWrap {
+                color:white;
+                font-family: Raleway;
+                text-align: center;
+    
+                h2 {
+                    font-size: 62px;
+                    line-height: 58px;
+                    letter-spacing: -1px;
+                }
+    
+                h1 {
+                    font-family: Montserrat;
+                    font-size: 74px;
+                    font-weight: bold;
+                    position: relative;
+                    letter-spacing: -2px;
+                    line-height: 88.8px;
+                    left: 0;
+                    word-spacing: 0;
+                }
+    
+                span {
+                    display: flex;
+                    width: 105%;
+                    font-size: 20px;
+                    position: relative;
+                    line-height: 24px;
+                    top: 5px;
+                    left: -9px;
+                    word-spacing: -1.5pt;
+
+                }
+            }
+        }
+
+        .readMoreWrap {
+            display: flex;
+            position: relative;
+            top: 6px;
+            align-items: center;
+            justify-content: center;
+            width: 144px;
+            height: 44px;
+            margin: auto;
+            background: $green;
+    
+            .readMore {
+                width: 138px;
+                height: 38px;
+                border: 1px solid white;
+                color:white;
+                font-family: Raleway;
+                font-size: 13px;
+                font-weight: bold;
+            }
+        }
+    }
+
+
+}
