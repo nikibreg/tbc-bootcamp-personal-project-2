@@ -146,6 +146,57 @@
 
                     }
                 }
+
+                .bullets { 
+                    position: relative;
+                    top: 33px;
+                    left: 2px;
+
+                    .bullet {
+                        max-width: 550px;
+                        font-family: Open Sans;
+                        font-size: 13px;
+                        line-height: 23px;
+                        color: #525252;
+                        display: flex;
+                        margin-bottom: 19px;
+                        
+                        &::before {
+                            content: "\f058";
+                            display: inline;
+                            font-family: FontAwesome;
+                            /* line-height: 16px; */
+                            width: 16px;
+                            font-size: 16px;
+                            color: #3AB6B2;
+                            display: flex;
+                            align-items: flex-start;
+                            justify-content: center;                        
+                        }
+                        
+                        span {
+                            display: inline-block;   
+                            position: relative;
+                            left: 15px;
+                        }
+                    }
+
+                    button {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 138px;
+                        height: 42px;
+                        margin-top: 41px;
+                        margin-left: -2px;
+                        background: $green;
+                        color:white;
+                        font-family: Raleway;
+                        font-size: 13px;
+                        font-weight: bold;
+                    }
+                }
+
             }
         }
     }

@@ -17,6 +17,7 @@
             width: unset;
 
             .textWrap {
+                left: -1px;
                 h2 {
                     position: relative;
                     font-size: 25px;
@@ -27,10 +28,15 @@
                 }
 
                 h1 {
-                    font-size: 30px;  
-                    line-height: 36px;  
+                    font-size: 30px;
+                    line-height: 36px;
+                    word-spacing: 5px;
+                    position: relative;
+                    top: 2px;
+                    left: 9px;
+                    letter-spacing: -1.5pt;
                 }
-
+ 
                 span {
                     left: 11px;
                     top: 3px;
@@ -46,10 +52,10 @@
         }
 
         .readMoreWrap { 
-            top: 16px;
+            top: 18px;
             width: 64px;
             height: 19px;
-            left: 12px; 
+            left: 11px;
 
             .readMore { 
                 width: 60px;

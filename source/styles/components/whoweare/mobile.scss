@@ -7,12 +7,28 @@
     }
 
     .whoweareWrap {
+        left: -4px;
+        letter-spacing: -1pt;
+        margin: 0px 0px;
+        margin-right: -5px;
     
         header {
+            left: -4px;
+            top: 29px;
+            margin-bottom: calc(88.3px + 7px);
+
 
             h1 {
-                font-size: 27px;
-                line-height: 30.2px;
+                font-size: 28.88px;
+                line-height: 32.43px;
+                position: relative;
+                left: 5px;
+                top: 2px;
+                margin-bottom: 22.5px;
+            }
+
+            p {
+                
             }
 
             .line {
@@ -27,6 +43,7 @@
         }
 
         section {
+            top: -43px;
             margin: 0 23.5px;
         
             .laptopContainer {
@@ -36,11 +53,32 @@
             .detailsContainer {
 
                 .image {
-                    height: 421px;
+                    height: 206px;
                     background: black;
-                    margin-bottom: 25.3px;
+                    margin-bottom: 21.3px;
+
                 }
                 
+                .bullets { 
+                    top: 29px;
+                    left: 2px;
+
+                    .bullet { 
+                        span {
+                            display: inline-block;
+                            position: relative;
+                            left: 15px;
+                            overflow: initial;
+                            line-height: 23px;
+                            font-size: 13px;
+                            max-height: 46px;
+                            overflow: hidden;
+                            letter-spacing: 0pt;
+                        }
+                    }
+                }
+
+
                 .features {
                     display: none;
                 }
@@ -51,61 +89,22 @@
                     
                     h1 {
                         font-size: 16px;
-                        margin-bottom: 37.5px;
+                        line-height: 19px;
+                        margin-bottom: 24.5px;
                     }
 
                     p {
                         font-size: 13px;
-                    }
-                }
-
-                .bullets { 
-
-                    .bullet {
-                        max-width: 550px;
-                        font-family: Open Sans;
-                        font-size: 13px;
+                        letter-spacing: 0;
+                        color: #6A6A6A;
                         line-height: 23px;
-                        color: #525252;
-                        display: flex;
-                        
-                        &::before {
-                            content: "\f058";
-                            display: inline;
-                            font-family: FontAwesome;
-                            /* line-height: 16px; */
-                            width: 16px;
-                            font-size: 16px;
-                            color: #3AB6B2;
-                            display: flex;
-                            align-items: flex-start;
-                            justify-content: center;                        
-                        }
-                        
-                        span {
-                            display: inline-block;   
-                            position: relative;
-                            left: 15px;
-                            font-size: 13px;
-                            line-height: 13px
-                        }
-                    }
-
-                    button {
-                        margin-top: 48px;
-                        height: 42px;
-                        width: 138px;
-                        background: $green;
-                        color:white;
-                        font-size: 13px;
-                        font-family: Raleway;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        font-weight: bold;
+                        font-family: Open Sans;
+                        overflow: hidden;
+                        max-height: calc(23px * 3);
                     }
                 }
 
+              
             }
         }
     }
