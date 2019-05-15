@@ -52,9 +52,11 @@
             margin: auto;
     
             .textWrap {
-                color:white;
+                color: white;
                 font-family: Raleway;
+                left: 15px;
                 text-align: center;
+                position: relative;
     
                 h2 {
                     font-size: 62px;
@@ -95,6 +97,7 @@
             justify-content: center;
             width: 144px;
             height: 44px;
+            left: 14px;
             margin: auto;
             background: $green;
 

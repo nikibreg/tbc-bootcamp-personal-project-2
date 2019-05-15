@@ -19,8 +19,8 @@
         align-items: center;
         justify-content: center;
         position: relative;
-        top: 7px;
-        left: 1px;
+        top: 6px;
+        left: 4px;
     
         header {
             display: flex;
@@ -72,9 +72,9 @@
 
                 .details {
                     max-width: 572.5px;
-                    top: -1px;
-                    left: 11px;
-                    position: relative;
+                    top: -3px;
+                    left: 9px;
+                    position: relative;                
     
                     p {
                         font-size: 14px;
@@ -96,8 +96,8 @@
                     grid-column-gap: 34px;
                     grid-row-gap: 53px;
                     position: relative;
-                    left: 14px;
-                    top: 45px;
+                    left: 11px;
+                    top: 43px;
 
                     .feature {
                         display: flex;
@@ -121,8 +121,9 @@
                         .info {
                             position: relative;
                             display: inline-block;
-                            top: 2px;
-                            left: 26px;
+                            
+                            
+                            left: 27px;
 
                             h3 {
                                 display: inline-block;

@@ -9,10 +9,10 @@
     .whoweareWrap {
     
         header {
-            top: 110px;
 
             h1 {
-                font-size: 28.88px;
+                font-size: 27px;
+                line-height: 30.2px;
             }
 
             .line {
@@ -27,10 +27,85 @@
         }
 
         section {
-
-            .laptopContainer,
-            .detailsContainer {
+            margin: 0 23.5px;
+        
+            .laptopContainer {
                 display: none;
+            }
+
+            .detailsContainer {
+
+                .image {
+                    height: 421px;
+                    background: black;
+                    margin-bottom: 25.3px;
+                }
+                
+                .features {
+                    display: none;
+                }
+
+                .details {
+                    max-width: unset;
+                    left: 0;    
+                    
+                    h1 {
+                        font-size: 16px;
+                        margin-bottom: 37.5px;
+                    }
+
+                    p {
+                        font-size: 13px;
+                    }
+                }
+
+                .bullets { 
+
+                    .bullet {
+                        max-width: 550px;
+                        font-family: Open Sans;
+                        font-size: 13px;
+                        line-height: 23px;
+                        color: #525252;
+                        display: flex;
+                        
+                        &::before {
+                            content: "\f058";
+                            display: inline;
+                            font-family: FontAwesome;
+                            /* line-height: 16px; */
+                            width: 16px;
+                            font-size: 16px;
+                            color: #3AB6B2;
+                            display: flex;
+                            align-items: flex-start;
+                            justify-content: center;                        
+                        }
+                        
+                        span {
+                            display: inline-block;   
+                            position: relative;
+                            left: 15px;
+                            font-size: 13px;
+                            line-height: 13px
+                        }
+                    }
+
+                    button {
+                        margin-top: 48px;
+                        height: 42px;
+                        width: 138px;
+                        background: $green;
+                        color:white;
+                        font-size: 13px;
+                        font-family: Raleway;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-weight: bold;
+                    }
+                }
+
             }
         }
     }

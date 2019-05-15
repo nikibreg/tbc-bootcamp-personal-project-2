@@ -8,9 +8,13 @@
 
     .whoweareWrap {
     
+        top: -37px;
+        left: -3px;
         header {
 
             h1 {
+                font-size: 28.88px;
+                line-height: 32.43px;
             }
 
             .line {
@@ -25,6 +29,7 @@
         }
 
         section {
+            top: -33px;
             margin: 0 23.5px;
         
             .laptopContainer {
@@ -35,8 +40,9 @@
 
                 .image {
                     height: 421px;
-                    background: black;
-                    margin-bottom: 25.3px;
+                    background: black;    
+                    margin-bottom: 29.3px;
+
                 }
                 
                 .features {
@@ -48,11 +54,23 @@
                     left: 0;    
                     
                     h1 {
-                        margin-bottom: 37.5px;
+                        font-size: 25px;
+                        margin-bottom: 34.5px;
+                    }
+
+                    p {
+                        font-size: 14px;
+                        letter-spacing: -0.35pt;
+                        color: #6A6A6A;
+                        line-height: 23px;
+                        font-family: Open Sans;
                     }
                 }
 
                 .bullets { 
+                    position: relative;
+                    top: 33px;
+                    left: 2px;
 
                     .bullet {
                         max-width: 550px;
@@ -61,6 +79,7 @@
                         line-height: 23px;
                         color: #525252;
                         display: flex;
+                        margin-bottom: 19px;
                         
                         &::before {
                             content: "\f058";
@@ -83,7 +102,8 @@
                     }
 
                     button {
-                        margin-top: 48px;
+                        margin-top: 41px;
+                        margin-left: -2px;
                         height: 42px;
                         width: 138px;
                         background: $green;
