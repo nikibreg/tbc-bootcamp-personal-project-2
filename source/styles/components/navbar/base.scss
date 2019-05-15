@@ -1,0 +1,51 @@
+.navbar {
+    width: 100%;
+    height: 100px;
+    background: black;
+
+    .navbarWrap {
+        display: flex;
+        align-items: center;
+        width: fit-content;
+        height: 100%;
+        margin: auto;
+
+        .logoWrap,
+        .menuWrap {
+            display: flex;
+            align-items: center;
+        }
+
+        .logoWrap {
+            position: relative;
+            top: -2px;
+            left: -152px;
+            height: 50px;
+
+            span {
+                align-self: flex-end;
+                color: white;
+                font-family: 'Raleway';
+                font-size: 36px;
+            }
+        }
+
+        .menuWrap {
+            position: relative;
+            left: 157px;
+
+            .menuButton {
+                margin-right: 40px;
+                color: white;
+                font-family: 'Open Sans';
+                font-size: 14px;
+                text-decoration: none;
+            }
+
+            .menuButton:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+
+}
