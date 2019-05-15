@@ -14,12 +14,18 @@
 
             .textWrap {
                 h2 {
-                    letter-spacing: -2px;
-                    position: relative;
-                    left: -10px;
+                    // letter-spacing: -2px;
+                    // position: relative;
+                    // left: -10px;
+                    font-size: 58px;
+                }
+
+                h1 {
+                    font-size: 71px;    
                 }
 
                 span {
+                    font-size: 19px;
                     top: 4px;
                     left: -12px;
                     word-spacing: 0;
@@ -30,7 +36,7 @@
 
         .readMoreWrap { 
             top: -7px;
-            left: -31px;
+            left: -31px; 
         }
     }
 

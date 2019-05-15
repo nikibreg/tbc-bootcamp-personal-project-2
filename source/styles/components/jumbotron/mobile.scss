@@ -1,3 +1,59 @@
-.component{
-    
+.jumbotron {
+    height: 215px;
+
+    .rightButton, 
+    .leftButton {
+        display: none;
+    }
+
+    .contentWrap {
+        left: 0;
+
+        .jumbotronWrap {
+            top: 0px;
+            margin: auto;
+            left: 0px;
+            width: unset;
+
+            .textWrap {
+                h2 {
+                    letter-spacing: -2px;
+                    position: relative;
+                    font-size: 25px;
+                    line-height: 30px;
+                }
+
+                h1 {
+                    font-size: 30px;  
+                    line-height: 36px;  
+                }
+
+                span {
+                    left: 0;
+                    top: 0;
+                    font-size: 9px;
+                    line-height: 10.8px;
+                    word-spacing: 0;
+                    letter-spacing: -0.7px;
+                    max-width: 233px;
+                    white-space: nowrap;
+                    overflow: hidden;
+                }
+            }
+        }
+
+        .readMoreWrap { 
+            top: 0;
+            width: 64px;
+            height: 19px;
+            
+            .readMore { 
+                width: 60px;
+                height: 15px;
+                font-size: 7px;
+                line-height: 13.77px;
+            }
+        }
+    }
+
 }
