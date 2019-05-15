@@ -1,10 +1,11 @@
 .jumbotron {
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: center;
     width: 100%;
     height: 760px;
-    background: #666666;
+    background: #292929;
 
     .leftButton,
     .rightButton {
@@ -41,15 +42,15 @@
 
         .jumbotronWrap {
             display: flex;
+            position: relative;
+            top: -28px;
+            left: -2px;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             width: 714px;
             height: auto;
             margin: auto;
-            left: -2px;
-            top: -28px;
-            position: relative;
     
             .textWrap {
                 color:white;
@@ -58,29 +59,29 @@
     
                 h2 {
                     font-size: 62px;
-                    line-height: 58px;
                     letter-spacing: -1px;
+                    line-height: 58px;
                 }
     
                 h1 {
+                    position: relative;
+                    left: 0;
                     font-family: Montserrat;
                     font-size: 74px;
                     font-weight: bold;
-                    position: relative;
                     letter-spacing: -2px;
                     line-height: 88.8px;
-                    left: 0;
                     word-spacing: 0;
                 }
     
                 span {
                     display: flex;
-                    width: 105%;
-                    font-size: 20px;
                     position: relative;
-                    line-height: 24px;
                     top: 5px;
                     left: -9px;
+                    width: 105%;
+                    font-size: 20px;
+                    line-height: 24px;
                     word-spacing: -1.5pt;
 
                 }
@@ -90,14 +91,14 @@
         .readMoreWrap {
             display: flex;
             position: relative;
-            top: 6px;
+            top: 17px;
             align-items: center;
             justify-content: center;
             width: 144px;
             height: 44px;
             margin: auto;
             background: $green;
-    
+
             .readMore {
                 width: 138px;
                 height: 38px;
@@ -109,6 +110,4 @@
             }
         }
     }
-
-
 }

@@ -10,14 +10,14 @@
 
         .jumbotronWrap {
             top: -33px;
-            left: -19px;
+            left: -25px;
 
             .textWrap {
                 h2 {
-                    // letter-spacing: -2px;
-                    // position: relative;
-                    // left: -10px;
                     font-size: 58px;
+                    letter-spacing: -0.5px;
+                    left: 3px;
+                    position: relative;
                 }
 
                 h1 {
@@ -26,17 +26,18 @@
 
                 span {
                     font-size: 19px;
-                    top: 4px;
-                    left: -12px;
+                    top: 3px;
+                    left: 2px;
                     word-spacing: 0;
-                    letter-spacing: -0.7px;
+                    letter-spacing: -0.25px;
+                    width: 120%;
                 }
             }
         }
 
         .readMoreWrap { 
-            top: -7px;
-            left: -31px; 
+            top: 5px;
+            left: -24px;
         }
     }
 

@@ -1,5 +1,5 @@
 .jumbotron {
-    height: 215px;
+    height: 210px;
 
     .rightButton, 
     .leftButton {
@@ -7,7 +7,8 @@
     }
 
     .contentWrap {
-        left: 0;
+        left: -12px;
+        top: -18px;
 
         .jumbotronWrap {
             top: 0px;
@@ -17,10 +18,12 @@
 
             .textWrap {
                 h2 {
-                    letter-spacing: -2px;
                     position: relative;
                     font-size: 25px;
+                    letter-spacing: -0.5px;
                     line-height: 30px;
+                    top: 4px;
+                    left: 9px;
                 }
 
                 h1 {
@@ -29,13 +32,13 @@
                 }
 
                 span {
-                    left: 0;
-                    top: 0;
+                    left: 11px;
+                    top: 3px;
                     font-size: 9px;
                     line-height: 10.8px;
                     word-spacing: 0;
-                    letter-spacing: -0.7px;
-                    max-width: 233px;
+                    letter-spacing: -0.1px;
+                    max-width: 270px;
                     white-space: nowrap;
                     overflow: hidden;
                 }
@@ -43,10 +46,11 @@
         }
 
         .readMoreWrap { 
-            top: 0;
+            top: 16px;
             width: 64px;
             height: 19px;
-            
+            left: 12px; 
+
             .readMore { 
                 width: 60px;
                 height: 15px;
@@ -55,5 +59,4 @@
             }
         }
     }
-
 }
