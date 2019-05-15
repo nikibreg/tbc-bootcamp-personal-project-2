@@ -64,6 +64,8 @@
                 margin-right: 80.5px;
 
                 img {
+                    width: 100%;
+                    max-width: 510px;
                 }
             }
             .detailsContainer {
@@ -118,10 +120,12 @@
 
                         .info {
                             position: relative;
+                            display: inline-block;
                             top: 2px;
                             left: 26px;
 
                             h3 {
+                                display: inline-block;
                                 font-family: Raleway;
                                 font-size: 18px;
                                 font-weight: bold;
@@ -131,6 +135,7 @@
                             }
 
                             p {
+                                display: inline;
                                 font-family: Open Sans;
                                 font-size: 13px;
                                 color: #6a6a6a;

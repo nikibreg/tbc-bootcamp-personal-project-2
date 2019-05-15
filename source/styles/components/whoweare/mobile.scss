@@ -1,3 +1,39 @@
-.component{
+.whoweare {
+
+    h1 {
+    }
+
+    .green-text {
+    }
+
+    .whoweareWrap {
     
+        header {
+            top: 110px;
+
+            h1 {
+                font-size: 28.88px;
+            }
+
+            .line {
+
+                i {
+                }
+
+                &::before,
+                &::after {
+                }
+            }
+        }
+
+        section {
+
+            .laptopContainer,
+            .detailsContainer {
+                display: none;
+            }
+        }
+    }
+
+
 }

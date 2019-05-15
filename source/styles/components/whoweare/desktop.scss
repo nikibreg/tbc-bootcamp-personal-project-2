@@ -1,3 +1,52 @@
-.component{
+.whoweare {
+
+    h1 {
+    }
+
+    .green-text {
+    }
+
+    .whoweareWrap {
     
+        header {
+
+            h1 {
+            }
+
+            .line {
+
+                i {
+                }
+
+                &::before,
+                &::after {
+                }
+            }
+        }
+
+        section {
+        
+            .laptopContainer {
+            }
+
+            .detailsContainer {
+
+                .image {
+                }
+                
+                .features {
+                }
+
+                .details {
+                }
+
+                .bullets { 
+                    display: none;
+                }
+
+            }
+        }
+    }
+
+
 }
