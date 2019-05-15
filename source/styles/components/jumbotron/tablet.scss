@@ -1,3 +1,37 @@
-.component{
-    
+.jumbotron {
+    height: 592px;
+
+    .rightButton, 
+    .leftButton {
+        display: none;
+    }
+
+    .contentWrap {
+
+        .jumbotronWrap {
+            top: -33px;
+            left: -19px;
+
+            .textWrap {
+                h2 {
+                    letter-spacing: -2px;
+                    position: relative;
+                    left: -10px;
+                }
+
+                span {
+                    top: 4px;
+                    left: -12px;
+                    word-spacing: 0;
+                    letter-spacing: -0.7px;
+                }
+            }
+        }
+
+        .readMoreWrap { 
+            top: -7px;
+            left: -31px;
+        }
+    }
+
 }

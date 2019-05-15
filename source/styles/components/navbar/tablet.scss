@@ -1,16 +1,33 @@
 .navbar {
+    height: 108px;
 
     .navbarWrap {
         justify-content: space-between;
         width: unset;
         padding: 0 20px;
+        padding-right: 30px;
 
         .logoWrap {
             left: unset;
+            top: -5px;
         }
 
         .menuWrap {
             display: none;
+        }
+
+        .burgerWrap {
+            width: 56px;
+            height: 39px;
+
+            .burger {
+                width: 52px;
+                height: 35px;
+            }
+
+            .burger::after {
+                transform: scaleX(2);
+            }
         }
     }
 }
