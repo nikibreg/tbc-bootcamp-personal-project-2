@@ -1,3 +1,16 @@
 .navbar {
-    background: yellow;
+
+    .navbarWrap {
+        justify-content: space-between;
+        width: unset;
+        padding: 0 20px;
+
+        .logoWrap {
+            left: unset;
+        }
+
+        .menuWrap {
+            display: none;
+        }
+    }
 }

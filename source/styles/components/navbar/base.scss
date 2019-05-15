@@ -46,6 +46,31 @@
                 margin-right: 0;
             }
         }
+
+        .burgerWrap {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 48px;
+            height: 31px;
+            background: $green;
+
+            .burger {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 44px;
+                height: 27px;
+                border: 1px solid white;
+            }
+
+            .burger::after {
+                content: '\f0c9';
+                transform: scaleX(1.6);
+                color: white;
+                font-family: 'FontAwesome';
+            }
+        }
     }
 
 }
