@@ -40,13 +40,11 @@
         position: relative;
 
         .jumbotronWrap {
-            display: flex;
+            @include flex-center;
             position: relative;
             top: -28px;
             left: -2px;
             flex-direction: column;
-            align-items: center;
-            justify-content: center;
             width: 714px;
             height: auto;
             margin: auto;
@@ -90,11 +88,9 @@
         }
 
         .readMoreWrap {
-            display: flex;
+            @include flex-center;
             position: relative;
             top: 17px;
-            align-items: center;
-            justify-content: center;
             width: 144px;
             height: 44px;
             left: 14px;

@@ -1,0 +1,59 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js lint
+
+PATH: 
+  /home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/niki/.npm-global/bin:/home/niki/bin:/home/niki/.local/bin:/home/niki/.local/bin:/home/niki/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/home/niki/Android/Sdk/bin:/home/niki/Android/Sdk/tools:/home/niki/Android/Sdk/platform-tools:/home/niki/.npm-global/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/jre/bin:~/Android/Sdk/tools:~/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  8.16.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/niki/personal-project-scss/package.json: Unexpected token f in JSON at position 480
+      at JSON.parse (<anonymous>)
+      at /usr/share/yarn/lib/cli.js:1631:59
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:304:30)
+      at /usr/share/yarn/lib/cli.js:315:13
+      at <anonymous>
+
+npm manifest: 
+  {
+    "name": "bootcamp-scss",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:amulyk/bootcamp-scss.git",
+    "author": "Andrii Mulyk <amulyk@lectrum.io>",
+    "license": "MIT",
+    "scripts": {
+      "server": "light-server -s ./dist/",
+      "lint:css": "stylelint \"./source/styles/**/*.scss\" --syntax scss",
+      "lint:html": "htmllint \"./source/*.html\"",
+      "lint": "yarn lint:css & yarn lint:html",
+      "development": "gulp",
+      "stylelint": "stylelint "foo/**/*.css" --syntax scss"
+    },
+    "devDependencies": {
+      "del": "^4.1.1",
+      "gulp": "^4.0.2",
+      "gulp-cli": "^2.2.0",
+      "gulp-sass": "^4.0.2",
+      "htmllint-cli": "^0.0.7",
+      "light-server": "^2.6.2",
+      "stylelint": "^10.0.1",
+      "stylelint-config-property-sort-order-smacss": "^4.0.2",
+      "stylelint-config-standard": "^18.3.0",
+      "stylelint-scss": "^3.6.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
