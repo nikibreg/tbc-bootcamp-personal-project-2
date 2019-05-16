@@ -1,6 +1,8 @@
 .whoweare {
     max-width: 1188px;
     margin: auto;
+    // skrtskrt
+    overflow: hidden;
 
     h1 {
         font-family: Raleway;
@@ -70,9 +72,9 @@
 
                 .details {
                     max-width: 572.5px;
-                    top: -3px;
-                    left: 9px;
-                    position: relative;                
+                    top: -1px;
+                    left: 11px;
+                    position: relative;               
     
                     p {
                         font-size: 14px;
@@ -83,7 +85,7 @@
     
                     h1 {
                         margin-bottom: 24.3px;
-                        letter-spacing: -0.5pt;
+                        letter-spacing: -0.6pt;
                     }
                 }
 
@@ -94,11 +96,36 @@
                     grid-column-gap: 34px;
                     grid-row-gap: 53px;
                     position: relative;
-                    left: 11px;
-                    top: 43px;
+                    left: 13px;
+                    top: 48px;
 
                     .feature {
                         display: flex;
+
+                        &.settings .icon::before  {
+                            content: "\f013";
+                            color: white;
+                            font-family: FontAwesome;
+                            font-size: 24px;
+                        }
+                        &.love .icon::before {
+                            content: "\f004";
+                            color: white;
+                            font-family: FontAwesome;
+                            font-size: 24px;
+                        }
+                        &.map .icon::before {
+                            content:  "\f041";
+                            color: white;
+                            font-family: FontAwesome;
+                            font-size: 24px;
+                        }
+                        &.compose .icon::before {
+                            content: "\f044";
+                            color: white;
+                            font-family: FontAwesome;
+                            font-size: 24px;
+                        }
 
                         .icon {
                             @include flex-center;
@@ -112,12 +139,14 @@
                                 color:white;
                                 font-size: 24px;
                             }
+
                         }
 
                         .info {
                             position: relative;
                             display: inline-block;
-                            
+                            // skrtskrt
+                            width: 64%;    
                             
                             left: 27px;
 
@@ -127,7 +156,7 @@
                                 font-size: 18px;
                                 font-weight: bold;
                                 line-height: 19px;
-                                LETTER-SPACING: -0.2pt;
+                                LETTER-SPACING: -0.3pt;
                                 margin-bottom: 11px;
                             }
 

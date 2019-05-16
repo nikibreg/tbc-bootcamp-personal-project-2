@@ -6,9 +6,10 @@
     .navbarWrap {
         display: flex;
         align-items: center;
-        width: fit-content;
+        width: 1025px;
         height: 100%;
         margin: auto;
+        justify-content: space-between;
 
         .logoWrap,
         .menuWrap {
@@ -17,9 +18,8 @@
         }
 
         .logoWrap {
-            position: relative;
-            top: -2px;
-            left: -152px;
+            // margin-right: 310px;
+            // margin-left: 8px;
             height: 50px;
 
             span {
@@ -31,8 +31,6 @@
         }
 
         .menuWrap {
-            position: relative;
-            left: 157px;
 
             .menuButton {
                 margin-right: 40px;
