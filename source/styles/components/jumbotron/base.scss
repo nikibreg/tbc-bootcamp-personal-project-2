@@ -40,15 +40,15 @@
     .contentWrap {
         position: relative;
         height: 760px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        
 
         img { 
-            max-width: 100%;
             position: absolute;
-            max-height: 760px;
             left: center;
-            top: 0;
-            left: 50%;
-            transform: translateX(-50%);
         }
 
         .jumbotronWrap {
@@ -65,7 +65,7 @@
             .textWrap {
                 color: white;
                 font-family: Raleway;
-                left: 15px;
+                left: -5px;
                 text-align: center;
                 position: relative;
     
