@@ -39,6 +39,17 @@
 
     .contentWrap {
         position: relative;
+        height: 760px;
+
+        img { 
+            max-width: 100%;
+            position: absolute;
+            max-height: 760px;
+            left: center;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
 
         .jumbotronWrap {
             @include flex-center;

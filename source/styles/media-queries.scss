@@ -1,5 +1,5 @@
 $mobile: 'screen and (max-device-width: 767px)';
 $tablet: 'screen and (min-device-width: 768px) and (max-device-width: 1024px)';
-$desktop: 'screen and (min-device-width: 1025px)';
-$desktop-large: 'screen and (min-device-width: 1201px)';
+$desktop: 'screen and (min-device-width: 1025px) and (max-device-width: 1200px)';
+$desktop-large: 'screen and (min-device-width: 1201px) (max-device-width: 1600px)';
 $desktop-x-large: 'screen and (min-device-width: 1601px)';

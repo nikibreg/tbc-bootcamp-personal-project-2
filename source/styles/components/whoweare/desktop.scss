@@ -27,6 +27,11 @@
         section {
         
             .laptopContainer {
+                height: 450px;
+
+                img { 
+                    transform: scale(0.55);
+                }
             }
 
             .detailsContainer {
