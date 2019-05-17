@@ -11,7 +11,7 @@
     .rightButton {
         position: absolute;
         z-index: 1;
-        top: 50%;
+        top: 42%;
         width: 27px;
         height: 37px;
         margin: 0 40px;
@@ -58,7 +58,7 @@
             height: auto;
             margin: auto;
             position: absolute;
-            left: 50%;
+            left: calc(50% - 2pt);
             top: 50%;
             transform: translate(-50%, -63%);   
     
@@ -103,10 +103,10 @@
         .readMoreWrap {
             @include flex-center;
             position: relative;
-            top: 46px;
+            top: 44px;
             width: 144px;
             height: 44px;
-            left: 16px;
+            left: 15px;
             margin: auto;
             background: $green;
 
